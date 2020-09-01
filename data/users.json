@@ -1,16 +1,18 @@
 {
     "users": [{
         "username": "alice",
+        "description": "Alice should only see temperature measurements",
         "authorization": {
             "propertiesMustEqual": {
-                "unitOfMeasureName": "DEGREES_CELSIUS"
+                "ParameterName": "Temperature"
             } 
         }
     },{
         "username": "bob",
+        "description": "Bob should only see humidity measurements",
         "authorization": {
             "propertiesMustEqual": {
-                "unitOfMeasureName": "HERTZ"
+                "ParameterName": "Humidity"
             } 
         }
     }]
