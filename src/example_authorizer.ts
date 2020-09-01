@@ -37,7 +37,7 @@ export const authorizerProvider : AuthorizerProvider = {
                 u => u.username === req.headers['x-user']
             );
             if (!user) {
-                reject(new Error('Authorization failed: no such user'));
+                reject(new Error('no such user'));
             } else {
                 resolve(new ExampleAuthorizer(user));
             }
