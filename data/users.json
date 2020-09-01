@@ -1,0 +1,17 @@
+{
+    "users": [{
+        "username": "alice",
+        "authorization": {
+            "propertiesMustEqual": {
+                "unitOfMeasureName": "DEGREES_CELSIUS"
+            } 
+        }
+    },{
+        "username": "bob",
+        "authorization": {
+            "propertiesMustEqual": {
+                "unitOfMeasureName": "HERTZ"
+            } 
+        }
+    }]
+}

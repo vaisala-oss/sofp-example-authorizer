@@ -1,0 +1,40 @@
+{
+	"name": "sofp-example-authorizer",
+	"description": "This is an example authorizer for the SOFP server (see sofp-core).",
+	"version": "0.6.0",
+	"homepage": "https://github.com/vaisala-oss/sofp-example-authorizer",
+	"author": "Vaisala Corporation",
+	"license": "MIT",
+	"main": "dist/example_authorizer.js",
+	"engines": {
+		"node": "^8.11.4"
+	},
+	"scripts": {
+		"start": "tsc -w & nodemon dist/server/app.js",
+		"build": "tsc",
+		"test": "jest dist/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:vaisala-oss/sofp-example-authorizer.git"
+	},
+	"contributors": [
+		{
+			"name": "Sampo Savolainen",
+			"email": "sampo.savolainen@spatineo.com"
+		}
+	],
+	"dependencies": {
+		"sofp-lib": "0.4.2"
+	},
+	"devDependencies": {
+		"@types/es6-promise": "^3.3.0",
+		"@types/express": "^4.16.1",
+		"@types/jest": "~25.1.5",
+		"@types/node": "~8.0.58",
+		"jest": "~25.5.4",
+		"ts-jest": "~25.5.1",
+		"ts-node": "~8.10.2",
+		"typescript": "^3.9.7"
+	}
+}
