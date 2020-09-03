@@ -25,7 +25,7 @@
 		}
 	],
 	"dependencies": {
-		"sofp-lib": "0.4.2"
+		"sofp-lib": "0.5.0"
 	},
 	"devDependencies": {
 		"@types/es6-promise": "^3.3.0",
